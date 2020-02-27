@@ -43,7 +43,9 @@
 		"start:proxy": "yarn start --proxy --target liferay",
 		"test": "react-union-scripts test",
 		"lint": "yarn lint:eslint",
-		"lint:eslint": "eslint --ext .js ./"
+		"lint:eslint": "eslint --ext .js ./",
+		"widget-content": "yarn workspace @union-liferay/widget-content",
+		"widget-hero": "yarn workspace @union-liferay/widget-hero"
 	},
 	"workspaces": [
 		"packages/*"
