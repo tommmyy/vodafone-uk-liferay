@@ -20,7 +20,7 @@ git checkout parcel-spa
 * [React-union.org](https://react-union.org/)
 
 ## 03-02. Portals
-1. Open [sandbox](https://codesandbox.io/s/twilight-shape-5n2xj) and study the code.
+1. Open [sandbox](https://codesandbox.io/s/great-shape-q4733) and study the code.
 
 2. Cookie bar is now incorrectly shown under the navigation because its z-index is relative to Content istead of whole document.
 
