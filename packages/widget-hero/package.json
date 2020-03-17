@@ -1,0 +1,19 @@
+{
+	"name": "@union-liferay/widget-hero",
+	"version": "0.0.1",
+	"private": true,
+	"license": "UNLICENSED",
+	"main": "src/index.js",
+	"source": "src/index.js",
+	"dependencies": {
+		"prop-types": "^15.7.2",
+		"ramda": "^0.27.0",
+		"ramda-extension": "^0.10.3",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-intl": "^4.1.1"
+	},
+	"devDependencies": {
+		"enzyme": "^3.11.0"
+	}
+}
