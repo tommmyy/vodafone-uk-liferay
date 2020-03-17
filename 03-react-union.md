@@ -7,6 +7,7 @@
 git clone https://github.com/tommmyy/vodafone-uk-liferay.git
 git checkout parcel-spa
 ```
+
 2. According to instuctions on the slides or at [React-union.org](https://react-union.org/) integrate React-union such as:
 - `WidgetContent` and `WidgetHero` are loaded through RU
 - Mock the widget descriptors in the `index.html` file for each widget
@@ -31,3 +32,20 @@ git checkout parcel-spa
 ### Hints
 - [Modal in React Docs](https://reactjs.org/docs/portals.html)
 - [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
+
+## 03-03. - Configuration
+1. Clone the repo and checkout the branch `configuration-intl` and study code.
+
+```sh
+git checkout configuration-intl 
+```
+
+2. Add [`common-data descriptor`](https://react-union.org/union-component-common-data-descriptors) to pass `defaultLocale` to our app.
+
+3. Adding language switcher 
+
+Use `onScanEnd` callback on `Union` component. The callback will pass result of scanning the HTML. Read the `defaultLocale` from it and set the locale of the app.
+
+Next create set of buttons that dynamically sets the locale and translated messages.
+
+4. Bonus: Practice [`withWidgetContext`](https://react-union.org/union-component-withwidgetcontext) -  Pass the cata (e.t. API endpoint) thgrough widget-descriptor. Create nested compnent in widget-content and print out the URL.
