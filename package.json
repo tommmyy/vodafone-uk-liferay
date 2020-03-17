@@ -1,0 +1,36 @@
+{
+	"name": "vodafone-uk-liferay",
+	"version": "0.0.1",
+	"license": "MIT",
+	"private": true,
+	"app-demo": "build/app-demo/index.html",
+	"devDependencies": {
+		"@babel/core": "^7.8.3",
+		"babel-eslint": "^10.0.1",
+		"babel-plugin-dynamic-import-node": "^2.2.0",
+		"babel-preset-react-union": "^0.15.2",
+		"eslint": "^5.12.0",
+		"eslint-config-react-union": "^0.15.0",
+		"eslint-plugin-babel": "^5.2.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-react": "^7.12.3",
+		"parcel": "^2.0.0-alpha.3.2",
+		"rimraf": "^3.0.2"
+	},
+	"scripts": {
+		"start": "yarn clean && yarn start:app",
+		"start:app": "parcel serve src/index.html",
+		"build": "yarn clean && yarn build:app && yarn bundle",
+		"build:app": "parcel build --no-scope-hoist --target app-demo src/index.html",
+		"build:js": "parcel build packages/app-demo",
+		"clean": "rimraf .parcel-cache build dist",
+		"app-demo": "yarn workspace @union-liferay/app-demo"
+	},
+	"dependencies": {
+		"document-ready": "^2.0.2",
+		"prop-types": "^15.7.2",
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0",
+		"react-hot-loader": "^4.12.20"
+	}
+}
