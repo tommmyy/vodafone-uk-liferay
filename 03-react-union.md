@@ -1,6 +1,22 @@
 # iii. React-union 
 
 ## 03-01. Use react-union 
+1. Clone the repo and checkout the branch `parcel-spa` and study code in the `src` folder.
+
+```sh
+git clone https://github.com/tommmyy/vodafone-uk-liferay.git
+git checkout parcel-spa
+```
+2. According to instuctions on the slides or at [React-union.org](https://react-union.org/) integrate React-union such as:
+- `WidgetContent` and `WidgetHero` are loaded through RU
+- Mock the widget descriptors in the `index.html` file for each widget
+- Create `routes.js` file where you define your [routes](https://react-union.org/union-component-union#route).
+- Edit `src/components/Root.js` to use [`Union`](https://react-union.org/union-component-union) component
+- Edit `src/index.js` to use [`justRender`](https://react-union.org/union-component-utilities#code-classlanguage-textjustrendercode) utility function 
+
+### Hints	
+* [Parcel-bundler v2](https://github.com/parcel-bundler/parcel)
+* [React-union.org](https://react-union.org/)
 
 ## 03-02. Gatsby and Wordpress
 1. Open [sandbox](https://codesandbox.io/s/twilight-shape-5n2xj) and study the code.
