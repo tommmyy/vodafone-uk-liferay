@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <noscript>
+      JavaScript is disabled. App will not run correctly.
+    </noscript>
+
+    <div id="hero"></div>
+    <script data-union-widget="hero" data-union-container="hero" type="application/json"></script>
+
+    <div id="content"></div>
+    <script data-union-widget="content" data-union-container="content" type="application/json">
+    {
+      "messages": {
+        "heading": "Welcome",
+        "content": "This is sample server content."
+      }
+    }
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
