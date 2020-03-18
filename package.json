@@ -34,10 +34,11 @@
 	"scripts": {
 		"start": "yarn clean && yarn start:app",
 		"start:app": "parcel serve packages/app-demo/src/index.html",
-		"build": "yarn clean && yarn build:app && yarn bundle",
+		"build": "yarn clean && yarn build:app && yarn bundle && yarn lfr-bundler",
 		"build:app": "parcel build --no-scope-hoist --target app-demo packages/app-demo/src/index.html",
 		"build:js": "parcel build packages/app-demo",
-		"bundle": "react-union-liferay-build-tools bundle && liferay-npm-bundler",
+		"bundle": "react-union-liferay-build-tools bundle",
+		"lfr-bundler": "liferay-npm-bundler",
 		"clean": "rimraf .parcel-cache build dist",
 		"app-demo": "yarn workspace @union-liferay/app-demo"
 	}
