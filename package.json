@@ -28,7 +28,7 @@
 		"eslint-plugin-react": "^7.12.3",
 		"liferay-build-tools": "^0.0.1",
 		"liferay-npm-bundler": "2.18.2",
-		"parcel": "2.0.0-nightly.125"
+		"parcel": "^2.0.0-alpha.3.2"
 	},
 	"scripts": {
 		"start": "yarn clean && yarn start:app",
