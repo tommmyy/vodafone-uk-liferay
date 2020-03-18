@@ -5,7 +5,7 @@ function runCommand(command) {
 	return run(require(`./scripts/${command}`));
 }
 
-const command = process.argv[2];
+const command = process.argv[2] || 'bundle';
 
 if (['bundle'].includes(command)) {
 	runCommand(command).catch(err => {
