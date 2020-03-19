@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Root /> should match snapshot 1`] = `
+<div>
+  <img
+    src="logo.png"
+  />
+  <nav>
+    <ul>
+      <li>
+        <Link
+          to="/"
+        >
+          Link using Senna
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/"
+        >
+          Link with refresh
+        </Link>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
