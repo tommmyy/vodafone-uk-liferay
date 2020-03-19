@@ -6,7 +6,7 @@
 		"liferay-theme"
 	],
 	"liferayTheme": {
-		"baseTheme": "styled",
+		"baseTheme": "unstyled",
 		"screenshot": "",
 		"rubySass": false,
 		"templateLanguage": "ftl",
@@ -16,10 +16,7 @@
 		"gulp": "3.9.1",
 		"liferay-theme-deps-7.0": "~8.1.2",
 		"liferay-theme-tasks": "^9.5.0",
-		"compass-mixins": "0.12.10",
-		"liferay-frontend-common-css": "1.0.4",
-		"liferay-frontend-theme-styled": "5.0.0",
-		"liferay-frontend-theme-unstyled": "5.0.0"
+		"compass-mixins": "0.12.10"
 	},
 	"scripts": {
 		"build": "yarn gulp build",
