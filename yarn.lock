@@ -8361,10 +8361,20 @@ ramda-extension@^0.10.1:
   resolved "https://registry.yarnpkg.com/ramda-extension/-/ramda-extension-0.10.1.tgz#22059b3a807be4b0617d0b032a81bfc8a542eee3"
   integrity sha512-ZhDmiYfLDm+fPA1S1IMeVY94isL6SdvVINVoGcFCm1ozRfHXjhKyx3F1htmFyV5hksyoI97mSqgcwab4Q5CBPQ==
 
+ramda-extension@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/ramda-extension/-/ramda-extension-0.10.3.tgz#27026970889730c2c3d214e4d3138002d9553eb2"
+  integrity sha512-6B7tlSL6C7TR/hspLLibmowPEJRkX5pgAN3Mb2DhwFqQIT+KSOtx3fGNdJh3MyViLRil67hFlkeZHOMwBKd+yw==
+
 ramda@^0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
   integrity sha512-hLWjpy7EnsDBb0p+Z3B7rPi3GDeRG5ZtiI33kJhTt+ORCd38AbAIjB/9zRIUoeTbE/AVX5ZkU7m6bznsvrf8eQ==
+
+ramda@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.0.tgz#915dc29865c0800bf3f69b8fd6c279898b59de43"
+  integrity sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==
 
 randexp@0.4.6:
   version "0.4.6"
